@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.section-title1 {
+    position: relative;
+    line-height: 44px;
+    font-weight: 600;
+}
+.description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+}
+
+.icon1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 48px;
+    height: 48px;
+}
+.icon {
+    position: relative;
+    width: 65px;
+    height: 56px;
+}
+.membership-organisations {
+    align-self: stretch;
+    position: relative;
+    line-height: 36px;
+}
+.member {
+    width: 267px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    transition: .4s;
+}
+.member:hover {
+    transform: scale(1.2);
+}
+
+.our-membership-management {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    width: 250px;
+    flex-shrink: 0;
+}
+
+.our-membership-management-soft-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 14px;
+    color: #717171;
+}
+
+.our-membership-management1 {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    width: 240px;
+    flex-shrink: 0;
+}
+.clubs-and-groups {
+    position: relative;
+    line-height: 36px;
+    display: inline-block;
+    width: 231px;
+}
+.membership-organizatios-parent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 144px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 28px;
+    color: #4d4d4d;
+    font-family: Inter;
+}
+
+.desktop-1 {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 202px;
+    text-align: center;
+    font-size: 36px;
+    color: #4d4d4d;
+}
+
